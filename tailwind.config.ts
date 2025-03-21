@@ -12,37 +12,29 @@ const config: Config = {
     theme: {
         extend: {
             colors: {
-                "guapi-white": {
-                    DEFAULT: "hsl(var(--guapi-white))", // Branco
-                    foreground: "hsl(var(--guapi-white-foreground))", // Preto para o texto
-                },
-                "guapi-gray": {
-                    DEFAULT: "hsl(var(--guapi-gray))", // Cinza claro
+                "primary-gray": {
+                    DEFAULT: "hsl(var(--primary-gray))", // Cinza claro
                     foreground: "hsl(var(--guapi-gray-foreground))", // Cinza escuro para o texto
                 },
-                "guapi-yellow": {
-                    DEFAULT: "hsl(var(--guapi-yellow))", // Amarelo
-                    foreground: "hsl(var(--guapi-yellow-foreground))", // Amarelo escuro para o texto
+                "primary-yellow": {
+                    DEFAULT: "hsl(var(--primary-yellow))", // Amarelo
+                    foreground: "hsl(var(--primary-yellow-foreground))", // Amarelo escuro para o texto
                 },
-                "guapi-green": {
-                    DEFAULT: "hsl(var(--guapi-green))", // Verde
-                    foreground: "hsl(var(--guapi-green-foreground))", // Verde escuro para o texto
+                "primary-green": {
+                    DEFAULT: "hsl(var(--primary-green))", // Verde
+                    foreground: "hsl(var(--primary-green-foreground))", // Verde escuro para o texto
                 },
-                "guapi-darkGreen": {
-                    DEFAULT: "hsl(var(--guapi-darkGreen))", // Verde escuro
-                    foreground: "hsl(var(--guapi-darkGreen-foreground))", // Verde mais escuro para o texto
+                "primary-darkGreen": {
+                    DEFAULT: "hsl(var(--primary-darkGreen))", // Verde escuro
+                    foreground: "hsl(var(--primary-darkGreen-foreground))", // Verde mais escuro para o texto
                 },
-                "guapi-teal": {
-                    DEFAULT: "hsl(var(--guapi-teal))", // Teal
-                    foreground: "hsl(var(--guapi-teal-foreground))", // Teal escuro para o texto
+                "primary-teal": {
+                    DEFAULT: "hsl(var(--primary-teal))", // Teal
+                    foreground: "hsl(var(--primary-teal-foreground))", // Teal escuro para o texto
                 },
-                "guapi-blue": {
-                    DEFAULT: "hsl(var(--guapi-blue))", // Azul
-                    foreground: "hsl(var(--guapi-blue-foreground))", // Azul escuro para o texto
-                },
-                "guapi-black": {
-                    DEFAULT: "hsl(var(--guapi-black))", // Preto
-                    foreground: "hsl(var(--guapi-black-foreground))", // Branco para o texto
+                "primary-blue": {
+                    DEFAULT: "hsl(var(--primary-blue))", // Azul
+                    foreground: "hsl(var(--primary-blue-foreground))", // Azul escuro para o texto
                 },
             },
         },
