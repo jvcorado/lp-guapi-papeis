@@ -42,6 +42,7 @@ const config: Config = {
                     DEFAULT: "hsl(var(--primary-blue))", // Azul
                     foreground: "hsl(var(--primary-blue-foreground))", // Azul escuro para o texto
                 },
+                "border": "hsl(var(--border))",
             },
         },
     },

@@ -23,37 +23,7 @@
     --radius: 0.625rem;
     --background: oklch(1 0 0);
     --foreground: oklch(0.145 0 0);
-    --border-input: 0, 0%, 82%, 1;
-  }
-}
-
-.hero_img_bg {
-  background-image: url("/landing-page/hero_lp.svg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.hero_about_img_bg {
-  background-image: url("/landing-page/hero_about.svg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-#Transportadoras,
-#Motoristas,
-#Embarcadores {
-  scroll-margin-top: 200px;
-}
-
-@layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
-
-  body {
-    @apply bg-background text-foreground;
+    --border: 0, 0%, 82%;
   }
 }
 
