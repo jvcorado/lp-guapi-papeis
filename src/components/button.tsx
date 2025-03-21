@@ -8,5 +8,7 @@ interface ButtonProps {
 }
 
 export default function Button({ text, size, color, onClick }: ButtonProps) {
-  return <button className="h-[3.688rem] border-input ">{text}</button>;
+  return (
+    <button className="h-[3.688rem] border-input text-prima">{text}</button>
+  );
 }

@@ -1,8 +1,13 @@
-@import "tailwindcss";
-@import "tw-animate-css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @layer base {
   :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 12%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
     --primary-gray: 0, 0%, 82%;
     --primary-gray-foreground: 0, 0%, 20%;
     --primary-yellow: 39, 89%, 60%;
@@ -22,11 +27,54 @@
   }
 }
 
+.hero_img_bg {
+  background-image: url("/landing-page/hero_lp.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero_about_img_bg {
+  background-image: url("/landing-page/hero_about.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#Transportadoras,
+#Motoristas,
+#Embarcadores {
+  scroll-margin-top: 200px;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@layer base {
+  /* Estilização da scroll bar geral */
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: none;
+    z-index: 99999;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--primary) / 0.1);
+    border-radius: 2px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--primary)); /* um pouco mais transparente no hover */
   }
 }

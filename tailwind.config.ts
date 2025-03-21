@@ -12,6 +12,12 @@ const config: Config = {
     theme: {
         extend: {
             colors: {
+                background: "hsl(var(--background))",
+                foreground: "hsl(var(--foreground))",
+                card: {
+                    DEFAULT: "hsl(var(--card))",
+                    foreground: "hsl(var(--card-foreground))",
+                },
                 "primary-gray": {
                     DEFAULT: "hsl(var(--primary-gray))", // Cinza claro
                     foreground: "hsl(var(--guapi-gray-foreground))", // Cinza escuro para o texto
